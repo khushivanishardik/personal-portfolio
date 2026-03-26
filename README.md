@@ -1,1 +1,1 @@
-# persnal-portfolio
+# personal-portfolio
