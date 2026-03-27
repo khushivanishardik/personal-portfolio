@@ -57,7 +57,40 @@
         }
 
         h2 {
+            font-size:32px;
             color: #000000;
+        }
+         #Certificates {
+            text-align:left;
+            padding: 40px 20px;
+        }
+
+        .certificates {
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            flex-wrap: wrap;   
+        }
+        .cert-card {
+            background: #b6d1d8;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px #00000026;
+            text-align: center;
+        }
+        .cert-card img {
+            width: 400px;       
+            max-width: 100%;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+        .cert-card img:hover {
+            transform: scale(1.05);
+        }
+        .cert-card p {
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: 500;
         }
 
         .projects {
@@ -72,7 +105,7 @@
             border-radius: 8px;
         }
 
-        footer {
+        footer{
             text-align: center;
             padding: 20px;
             background: #37616d;
@@ -108,6 +141,7 @@
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
+    <a href="#Certificates">Certificates</a>
     <a href="#contact">Contact</a>
 </nav>
 
@@ -153,6 +187,20 @@
         <li>Hindi</li>
         <li>French (beginner)</li>
     </ol>
+</section>
+
+<section id="Certificates">
+  <h2>Certificates:</h2>
+
+  <div class="certificates">
+
+    <div class="cert-card">
+      <img src="images/certificate1.png" alt="Certificate">
+      <p>1. Yuva AI For All</p>
+    </div>
+  </div>
+</section>
+    
 </section>
 
 <section id="projects">
